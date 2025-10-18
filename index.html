@@ -39,7 +39,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-light" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -50,10 +50,10 @@
         <div class="container my-4">
             <div class="row">
 
-                <!-- colonna contenente la tabella -->
-
-                <div class="col-12">
-                    <div class="container d-flex justify-content-between">
+                <!-- colonna contenente catalogo libri -->
+                <div class="col-lg-2"></div>
+                <div class="col-12 col-lg-6">
+                    <div class="container d-flex justify-content-between py-3">
                         <span><b>Catalogo libri</b></span>
                         <button class="btn btn-primary" type="submit">Aggiungi libro</button>
                     </div>
@@ -70,7 +70,7 @@
                         <tbody>
                             <tr>
                                 <td>Lorem, ipsum dolor.</td>
-                                <td class="d-none d-md-table-cell">30 febbraio</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
                                 <td><button type="button" class="btn btn-outline-secondary"><i
                                             class="fa-solid fa-pen-to-square"></i></button>
@@ -81,7 +81,7 @@
                             </tr>
                             <tr>
                                 <td>Lorem, ipsum dolor.</td>
-                                <td class="d-none d-md-table-cell">30 febbraio</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-danger">Non disponibile</span></td>
                                 <td><button type="button" class="btn btn-outline-secondary"><i
                                             class="fa-solid fa-pen-to-square"></i></button>
@@ -104,11 +104,161 @@
                         </tbody>
                     </table>
                 </div>
-                
-                <div class="col-12"></div>
-                <div class="col-12"></div>
+
+                <!-- inizio sezione Todo  -->
+
+                <div class="col-12 col-lg-3 py-3">
+
+                    <div class="border mb-2">
+                        <div class="border p-3 fs-3">
+                            Todo
+                        </div>
+                        <div class="p-3">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkDefault">
+                                                <label class="form-check-label" for="checkDefault">
+                                                    Default checkbox
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkDefault">
+                                                <label class="form-check-label" for="checkDefault">
+                                                    Default checkbox
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="checkDefault">
+                                                <label class="form-check-label" for="checkDefault">
+                                                    Default checkbox
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- inizio seyione FAQ -->
+
+                    <div class="col-12">
+                        <div>
+                            <div class="border p-3 fs-3">
+                                FAQ
+                            </div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                            accordion-item 1
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item’s accordion body.</strong> It is shown by
+                                            default,
+                                            until the collapse plugin adds the appropriate classes that we use to
+                                            style each
+                                            element. These classes control the overall appearance, as well as the
+                                            showing
+                                            and
+                                            hiding via CSS transitions. You can modify any of this with custom CSS
+                                            or
+                                            overriding
+                                            our default variables. It’s also worth noting that just about any HTML
+                                            can go
+                                            within
+                                            the <code>.accordion-body</code>, though the transition does limit
+                                            overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item’s accordion body.</strong> It is hidden
+                                            by
+                                            default,
+                                            until the collapse plugin adds the appropriate classes that we use to
+                                            style each
+                                            element. These classes control the overall appearance, as well as the
+                                            showing
+                                            and
+                                            hiding via CSS transitions. You can modify any of this with custom CSS
+                                            or
+                                            overriding
+                                            our default variables. It’s also worth noting that just about any HTML
+                                            can go
+                                            within
+                                            the <code>.accordion-body</code>, though the transition does limit
+                                            overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item’s accordion body.</strong> It is hidden
+                                            by
+                                            default,
+                                            until the collapse plugin adds the appropriate classes that we use to
+                                            style each
+                                            element. These classes control the overall appearance, as well as the
+                                            showing
+                                            and
+                                            hiding via CSS transitions. You can modify any of this with custom CSS
+                                            or
+                                            overriding
+                                            our default variables. It’s also worth noting that just about any HTML
+                                            can go
+                                            within
+                                            the <code>.accordion-body</code>, though the transition does limit
+                                            overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
-        </div>
 
 
     </main>
